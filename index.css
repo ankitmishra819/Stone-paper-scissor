@@ -1,0 +1,236 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.body {
+  background-color: whitesmoke;
+}
+.main{
+    height:90vh;
+}
+.box1 {
+  height: 7vh;
+  width: 100vw;
+  background-color:rgba(107, 38, 171, 0.585);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.box1 h4 {
+  font-size: 20px;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  margin: 30px 0;
+}
+.container img {
+  width: 150px;
+  height: 150px;
+  margin: 20px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.container img:hover{
+    border:4px solid black;
+}
+.winner {
+  display: flex;
+  margin: 20px;
+  justify-content: center;
+}
+.winner .youScore,
+.compScore {
+  margin: 15px 30px;
+  text-align: center;
+}
+.winner h5 {
+  font-size: 30px;
+}
+.winner p {
+  font-size: 20px;
+}
+.msg {
+  display: flex;
+  justify-content: center;
+  margin:40px;
+}
+.msg p {
+  height:57px;
+  width:340px;
+  background-color:grey;
+  border-radius: 8px;
+  color: white;
+  font-size:17px;
+  padding:10px 7px;
+}
+
+.footer{
+    height:10vh;
+    width:100vw;
+    background-color:rgba(101, 38, 161, 0.426);
+    color:white;
+    text-align: center;
+    padding:25px;
+}
+.footer div{
+    text-align:center;
+    font-size:20px;
+}
+
+
+@media(max-width:500px) {
+    .main{
+        height:90vh;
+    }
+    .box1 {
+        height:8vh;
+        width: 100vw;
+        background-color:rgba(107, 38, 171, 0.585);
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .box1 h4 {
+        font-size:15px;
+      }
+    .container {
+        display: flex;
+        justify-content: center;
+        margin: 30px 0;
+      }
+      .container img {
+        width:100px;
+        height:100px;
+        margin:10px;
+        border-radius:50%;
+        cursor: pointer;
+      }
+      .container img:hover{
+          border:3px solid black;
+      }
+      .winner {
+        display: flex;
+        margin:13px;
+        justify-content: center;
+      }
+      .winner .you,
+      .comp {
+        margin: 10px 20px;
+        text-align: center;
+      }
+      .winner h5 {
+        font-size:25px;
+      }
+      .winner p {
+        font-size:15px;
+      }
+      .msg {
+        display: flex;
+        justify-content: center;
+        margin:30px;
+      }
+      .msg p {
+        height:50px;
+        width: 330px;
+        background-color: grey;
+        border-radius: 8px;
+        color: white;
+        font-size:15px;
+        padding:10px 10px;
+      }
+      
+      .footer{
+          height:10vh;
+          width: 100vw;
+          background-color:rgba(107, 38, 171, 0.585);
+          color:white;
+          text-align: center;
+          justify-content: center;
+         
+      }
+      .footer div{
+          text-align:center;
+          font-size:12px;
+      }
+}
+
+@media(max-width:300px) {
+    .main{
+        height:92.7vh;
+    }
+
+    .box1 {
+        height:7vh;
+        width: 100vw;
+        background-color:rgba(107, 38, 171, 0.585);
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .box1 h4 {
+        font-size:12px;
+      }
+    .container {
+        display: flex;
+        justify-content: center;
+        margin:30px 0;
+      }
+      .container img {
+        width:73px;
+        height:73px;
+        margin:6px;
+        border-radius:50%;
+        cursor: pointer;
+      }
+      .container img:hover{
+          border:3px solid black;
+      }
+      .winner {
+        display: flex;
+        margin:10px;
+        justify-content: center;
+      }
+      .winner .you,
+      .comp {
+        margin: 10px 20px;
+        text-align: center;
+      }
+      .winner h5 {
+        font-size:25px;
+      }
+      .winner p {
+        font-size:15px;
+      }
+      .msg {
+        display: flex;
+        justify-content: center;
+        margin:30px;
+      }
+      .msg p {
+        height:45px;
+        width:300px;
+        background-color:grey;
+        border-radius: 8px;
+        color: white;
+        font-size: 13px;
+       justify-content: center;
+      }
+      
+      .footer{
+          height:4vh;
+          width:100vw;
+          background-color:rgba(107, 38, 171, 0.585);
+          color:white;
+          text-align: center;
+          justify-content:center;
+      }
+      .footer div{
+          text-align:center;
+          font-size:10px;
+      }
+}
